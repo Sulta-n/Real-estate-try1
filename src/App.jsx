@@ -3,6 +3,10 @@ import Hero from "./components/Hero/Hero";
 import "./App.css";
 import Companies from "./components/companies/Companies";
 import Residencies from "./components/residencies/Residencies";
+import Value from "./components/value/Value";
+import Contact from "./components/contact/Contact";
+import GetStarted from "./components/getstarted/GetStarted";
+import Footer from "./components/footer/Footer";
 
 function App() {
   return (
@@ -14,6 +18,10 @@ function App() {
       </div>
       <Companies />
       <Residencies />
+      <Value />
+      <Contact />
+      <GetStarted />
+      <Footer />
     </div>
   );
 }
